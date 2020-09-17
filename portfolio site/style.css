@@ -1,0 +1,288 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+/* Navigation Bar */
+.navigation{
+border: 0px solid #000000;
+box-sizing: border-box;
+height: 64px;
+font-family: Space Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+}
+
+Nav ol{
+   List-style-type: none;
+   Margin-top: 72px;   
+   margin-right: 168px;
+   Padding: 8px;
+   Overflow: hidden;
+   Background-color: #FFFFFF;
+}
+
+Nav li{
+   Float: right;
+}
+
+Li a{
+   Display: block:
+   Color: white;
+   Text-align: center;
+   Padding: 16px 16px;
+   Text-decoration: none:
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+/* Type Styles */
+H1{
+   font-family: Roboto;
+   Font-style: normal;
+   Font-weight: bold;
+   Font-size: 64px;
+   Line-height: 75px;
+
+   Color: #181818;
+   }
+
+H2{
+   font-family: Roboto;
+   Font-style: normal;
+   Font-weight: bold;
+   Font-size: 48px;
+   Line-height: 56px;
+
+   Color: #181818;
+   }
+
+H3{
+   font-family: Roboto;
+   Font-style: normal;
+   Font-weight: bold;
+   Font-size: 32px;
+   Line-height: 37px;
+
+   Color: #181818;
+   }
+
+H4{
+   font-family: "Space Mono";
+   Font-style: normal;
+   Font-weight: bold;
+   Font-size: 20px;
+   Line-height: 30px;
+
+   Color: #181818;
+   }
+
+H5{
+   font-family: "Space Mono";
+   Font-style: normal;
+   Font-weight: normal;
+   Font-size: 20px;
+   Line-height: 30px;
+
+   Color: #181818;
+   }
+
+p{
+   font-family: Roboto;
+   Font-style: normal;
+   Font-weight: normal;
+   Font-size: 20px;
+   Line-height: 30px;
+
+   Color: #181818;
+
+}
+
+.header-container{
+   Height: auto;
+   Width: auto;
+   Margin: 100px;
+}
+
+
+/*HOME PAGE*/
+.header-container{
+   margin-bottom: 64px;
+   margin-left: 168px;
+   margin-right: 168px;
+}
+
+#landing{
+   margin-bottom: 232px;
+}
+
+.solar-container, .better-buzz-container, .ucsd-sla-container{
+   margin-bottom: 168px;
+   margin-left: 168px;
+   margin-right: 168px;
+   clear: both;
+}
+
+.homepage-text{
+   float:left;
+   width: 33.33%;
+   padding-top: 72px;
+   padding-bottom: 72px;
+}
+
+#better-buzz-text{
+   padding-top: 104px;
+   padding-bottom: 104px;
+}
+
+#ucsd-sla-text{
+   padding-top: 24px;
+   padding-bottom: 24px;
+}
+
+#solar-graphic{
+   display: block;
+   float: right;
+   margin-bottom: 168px;
+}
+
+#better-buzz-graphic{
+   display: block;
+   float: right;
+   clear: right;
+   margin-bottom: 168px;
+
+}
+
+#ucsd-sla-graphic{
+   display: block;
+   float: right;
+   clear: right;
+   margin-bottom: 168px;
+
+}
+
+
+.learn-button{
+   display: inline-block;
+   background-color: #C6F4E6;
+   border: 2px solid #181818;
+   border-radius: 4px;
+   padding: 8px 16px;
+   margin: 16px 0px;
+   text-align: center;
+   box-shadow: -4px 4px #181818;
+}
+
+.learn-button: hover {background-color: #FFE896}
+
+.learn-button:active{
+   background-color: #FFE896;
+   box-shadow: -4px 4px #181818;
+   transform: translateX(-2px) translateY(2px);
+}
+
+
+
+/*ABOUT ME*/
+.about-me{
+   text-align: left;
+   margin-left: 168px;
+   margin-right: 168px;
+   width: 70%;
+}
+
+
+/*RESUME*/
+#resume-image{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 40%;
+   border: 2px solid #181818;
+   border-radius: 4px;
+   box-shadow: -8px 8px #C6F4E6;
+}
+
+#resume{
+   margin-bottom: 64px;
+}
+.
+/*FOOTER*/
+#footer{
+   height: 64px;
+   color: #C4C4C4;
+   text-align: center;
+}
+
+/*PROJECT PAGES*/
+.project-page{
+   margin-left: 168px;
+   margin-right: 168px;
+   text-align: left;
+}
+
+.role, .time, .overview, .projects, .subheader{
+   margin: 16px 0px;
+}
+
+.project-1, .project-2{
+   margin: 8px 0px;
+}
+
+.better-buzz-image{
+   margin: auto;
+   width: 70%;
+}
+
+#gif{
+   display: block;
+   margin-left: auto;
+   margin-right:auto;
+   width: 20%;
+}
+
+.conclusion{
+   margin-bottom: 64px;
+}
+
+/*IMAGES*/
+.column{
+   float: left;
+   width: 50%;
+   padding: 0px;
+}
+
+#better-buzz-column{
+   float:center;
+   width: 33%;
+   padding: 0px;
+}
+
+#better-buzz-users{
+   float: center;
+   width: 50%;
+   padding: 0px;
+}
+
+.row::after{
+   content: "";
+   clear: both;
+   display: table;
+}
